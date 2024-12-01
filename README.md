@@ -21,8 +21,13 @@ MongoDB does not provide any sample databases on their website, However, they do
 ## Running in docker
 
 ```bash
+# Inicializamos mongoDB
 docker compose up -d
+
+# Accedemos al servidor de mongo
 docker compose exec mongo /bin/bash
+
+# Accedemos a los datasets y los cargamos usando el script proporcionado
 cd /practicas
 ./script.sh localhost 27017 root example
 ```

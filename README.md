@@ -23,7 +23,7 @@ MongoDB does not provide any sample databases on their website, However, they do
 ```bash
 docker compose up -d
 docker compose exec mongo /bin/bash
-cd /practica
+cd /practicas
 ./script.sh localhost 27017 root example
 ```
 

@@ -32,3 +32,7 @@ cd /practicas
 ./script.sh localhost 27017 root example
 ```
 
+En caso de error revisar el tipo de final de linea (puede cambiarse con el comando 'sed -i 's/\r$//' script.sh')
+
+
+
